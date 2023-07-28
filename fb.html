@@ -44,42 +44,43 @@
             <div class="right-sec">
                 <p class="para1">Create an account</p>
                 <h4 class="para2">It's quick and easy.</h4>
-                <form action="" class="forms">
-                    <input class="f-box1" type="text" placeholder="  First name">
-                    <input class="f-box2" type="text" placeholder="  Sur name"><br>
-                    <input class="f-box3" type="text" placeholder="  Mobile number or email address">
-                    <input class="f-box4" type="password" placeholder="  New password">
+                <form action="" class="forms" id="signup-form">
+                    <input name="fname" class="f-box1" type="text" placeholder="  First name">
+                    <input name="sname" class="f-box2" type="text" placeholder="  Sur name">
+                    <br>
+                    <input name="emailaddress" class="f-box3" type="text" placeholder="  Mobile number or email address">
+                    <input name="password" class="f-box4" type="password" placeholder="  New password">
                     <input class="f-box4" type="password" placeholder="  Confirm password">
                     <h5>Birthday</h5>
                     <div class="birth">
-                        <select name="" id="day">
+                        <select  name="Days" id="day">
                             <option value="">Day</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
                             <option value="">.</option>
                             <option value="">.</option>
                             <option value="">.</option>
                         </select>
-                        <select name="" id="month">
+                        <select name="Months" id="month">
                             <option value="">Month</option>
-                            <option value="">jan</option>
-                            <option value="">feb</option>
-                            <option value="">mar</option>
-                            <option value="">apr</option>
-                            <option value="">may</option>
+                            <option value="jan">jan</option>
+                            <option value="feb">feb</option>
+                            <option value="mar">mar</option>
+                            <option value="apr">apr</option>
+                            <option value="may">may</option>
                             <option value="">.</option>
                             <option value="">.</option>
                             <option value="">.</option>
                         </select>
-                        <select name="" id="year">
+                        <select name="Years" id="year">
                             <option value="">Year</option>
-                            <option value="">1997</option>
-                            <option value="">1998</option>
-                            <option value="">1999</option>
-                            <option value="">2000</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
                             <option value="">.</option>
                             <option value="">.</option>
                             <option value="">.</option>
@@ -101,5 +102,10 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
